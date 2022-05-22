@@ -1,11 +1,12 @@
 {
   "name": "boilerplate-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "Boilerplate for creating projects in JavaScript. It contains the basic configuration of webpack and babel.",
+  "main": "src/app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel src/script.js --out-file public/script-compiled.js --presets=@babel/preset-env"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,11 @@
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.0",
-    "@babel/preset-env": "^7.18.0"
+    "@babel/preset-env": "^7.18.0",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
   }
 }
