@@ -17,7 +17,7 @@
 
 <!-- DESCRIPTION -->
 ## Description
-Boilerplate for creating projects in JavaScript. It contains the basic configuration of webpack and babel.
+Boilerplate for creating projects in JavaScript. Includes basic Webpack and Babel configuration.
 	
 <!-- TECHNOLOGIES -->
 ## Technologies

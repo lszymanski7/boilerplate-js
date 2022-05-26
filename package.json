@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-js",
   "version": "1.0.0",
-  "description": "Boilerplate for creating projects in JavaScript. It contains the basic configuration of webpack and babel.",
+  "description": "Boilerplate for creating projects in JavaScript. Includes basic Webpack and Babel configuration.",
   "main": "src/app.js",
   "private": true,
   "scripts": {
