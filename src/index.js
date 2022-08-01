@@ -1,3 +1,6 @@
+import 'normalize.css/normalize.css'
+import './assets/styles/styles.scss'
+
 console.log(
     '+--------------+---------------------------------------------------------------+' + '\n' +
     '| Project name | JavaScript Boilerplate                                        |' + '\n' +
