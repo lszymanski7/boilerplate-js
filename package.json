@@ -1,7 +1,7 @@
 {
 	"name": "boilerplate-js",
 	"version": "1.0.0",
-	"description": "Boilerplate for creating JavaScript projects. Includes basic Webpack, Babel, Express, ESLint and Prettier configurations.",
+	"description": "Boilerplate for creating projects in the JavaScript programming language. It includes the basic configuration of tools such as Webpack, Babel, Express, ESLint and Prettier.",
 	"author": "Łukasz Szymański",
 	"license": "MIT",
 	"main": "src/index.js",

@@ -42,7 +42,16 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
   
 <!-- FEATURES -->
 ## Features
-- x
+- Webpack configuration split into three files to separate the production and development environment. Provides support for Webpack Dev Server and plugins such as: 
+  - html-webpack-plugin,
+  - copy-webpack-plugin,
+  - mini-css-extract-plugin,
+  - css-minimizer-webpack-plugin,
+  - terser-webpack-plugin.
+- Converting ECMAScript 2015+ code into a backwards compatible version of JavaScript. 
+- A simple Express server that allows you to deploy your application in Heroku.
+- Checking JavaScript code to find existing problems.
+- Formatting all supported files.
 
 <!-- TECHNOLOGIES -->
 ## Technologies
