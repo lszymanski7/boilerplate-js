@@ -4,10 +4,10 @@
 	"description": "Boilerplate for creating JavaScript projects. Includes basic Webpack, Babel, Express, ESLint and Prettier configurations.",
 	"author": "Łukasz Szymański",
 	"license": "MIT",
-  	"main": "src/index.js",
-  	"private": true,
-  	"scripts": {
-    	"build:dev": "webpack --config config/webpack.dev.js",
+	"main": "src/index.js",
+	"private": true,
+	"scripts": {
+		"build:dev": "webpack --config config/webpack.dev.js",
 		"build:prod": "webpack --config config/webpack.prod.js",
 		"dev-server": "webpack serve --config config/webpack.dev.js",
 		"eslint:check": "npx eslint .",
@@ -42,6 +42,7 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-import-resolver-webpack": "^0.13.2",
 		"eslint-plugin-import": "^2.26.0",
+		"html-loader": "^4.1.0",
 		"html-webpack-plugin": "^5.5.0",
 		"mini-css-extract-plugin": "^2.6.1",
 		"prettier": "^2.7.1",
@@ -53,7 +54,7 @@
 		"webpack-cli": "^4.9.2",
 		"webpack-dev-server": "^4.9.0",
 		"webpack-merge": "^5.8.0"
-  	},
+	},
 	"browserslist": {
 		"production": [
 			">0.2%",
