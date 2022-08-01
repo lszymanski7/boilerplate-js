@@ -21,7 +21,7 @@
 
 <!-- JAVASCRIPT BOILERPLATE -->
 # JavaScript Boilerplate
-x
+Boilerplate for creating projects in the JavaScript programming language. It includes the basic configuration of tools such as Webpack, Babel, Express, ESLint and Prettier. Designed to speed up the process of building new projects. Don't waste your time configuring the tools used in web development.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
