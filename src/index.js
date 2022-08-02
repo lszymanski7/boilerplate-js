@@ -7,10 +7,10 @@ console.log(
     '+--------------+---------------------------------------------------------------------------+' + '\n' +
     '| Description  | Boilerplate for creating projects in the JavaScript programming language. |' + '\n' + 
     '|              | It includes the basic configuration of tools such as Webpack, Babel,      |' + '\n' + 
-    '|              | Express, ESLint and Prettier.                                             |' + '\n' +
+    '|              | Jest, Express, ESLint and Prettier.                                       |' + '\n' +
     '+--------------+---------------------------------------------------------------------------+' + '\n' +
-    '| Keywords     | Boilerplate, JavaScript, HTML, CSS, SASS, Webpack, Babel,                 |' + '\n' + 
-    '|              | Node.js, Npm, Express, ESLint, Prettier                                   |' + '\n' +
+    '| Keywords     | Boilerplate, JavaScript, HTML, CSS, SASS, Webpack, Babel, Jest,           |' + '\n' + 
+    '|              | Testing Library, Node.js, Npm, Express, ESLint, Prettier                  |' + '\n' +
     '+--------------+---------------------------------------------------------------------------+' + '\n' +
     '| Version      | v1.0.0                                                                    |' + '\n' +
     '+--------------+---------------------------------------------------------------------------+'
