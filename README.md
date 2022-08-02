@@ -21,7 +21,7 @@
 
 <!-- JAVASCRIPT BOILERPLATE -->
 # JavaScript Boilerplate
-Boilerplate for creating projects in the JavaScript programming language. It includes the basic configuration of tools such as Webpack, Babel, Express, ESLint and Prettier. Designed to speed up the process of building new projects. Don't waste your time configuring the tools used in web development.
+Boilerplate for creating projects in the JavaScript programming language. It includes the basic configuration of tools such as Webpack, Babel, Jest, Express, ESLint and Prettier. Designed to speed up the process of building new projects. Don't waste your time configuring the tools commonly used in web development.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -42,20 +42,21 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
   
 <!-- FEATURES -->
 ## Features
-- Webpack configuration split into three files to separate the production and development environment. Provides support for Webpack Dev Server and plugins such as: 
+- Webpack configuration split into three files to separate the production and development environments. Provides support for Webpack Dev Server and plugins such as: 
   - html-webpack-plugin,
   - copy-webpack-plugin,
   - mini-css-extract-plugin,
   - css-minimizer-webpack-plugin,
   - terser-webpack-plugin.
 - Converting ECMAScript 2015+ code into a backwards compatible version of JavaScript. 
+- Possibility to conduct unit tests.
 - A simple Express server that allows you to deploy your application in Heroku.
 - Checking JavaScript code to find existing problems.
 - Formatting all supported files.
 
 <!-- TECHNOLOGIES -->
 ## Technologies
-This project was created using the following technologies and tools:
+The following technologies and tools were used in the project:
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-424242?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-424242?style=flat&logo=html5&logoColor=E34F26)
@@ -63,6 +64,8 @@ This project was created using the following technologies and tools:
 [![SASS](https://img.shields.io/badge/SASS%20|%20v1.53.0-424242?style=flat&logo=SASS&logoColor=CC6699)](https://sass-lang.com)
 [![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.72.1-424242?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
 [![Babel](https://img.shields.io/badge/Babel%20|%20v7.18.0-424242?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
+[![Jest](https://img.shields.io/badge/Jest%20|%20v28.1.3-424242?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
+[![Testing Library](https://img.shields.io/badge/Testing%20Library%20|%20v8.16.0-424242?style=flat&logo=testinglibrary&logoColor=E33332)](https://testing-library.com)
 [![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.6.0-424242?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
 [![Npm](https://img.shields.io/badge/Npm%20|%20v8.15.0-424242?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.1-424242?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com)
@@ -132,6 +135,15 @@ npm run prettier:fix
 
 # Start the Express server and run the application at the following url: http://localhost:3000
 npm run start
+
+# Run all tests with the settings specified in the configuration file.
+npm run test
+
+# Generate code coverage report.
+npm run test:coverage
+
+# Run all tests in watch mode.
+npm run test:watch
 ```
   
 <!-- BUGS AND FEATURES -->
