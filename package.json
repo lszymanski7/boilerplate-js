@@ -1,7 +1,7 @@
 {
 	"name": "boilerplate-js",
 	"version": "1.0.0",
-	"description": "Boilerplate for creating projects in the JavaScript programming language. It includes the basic configuration of tools such as Webpack, Babel, Express, ESLint and Prettier.",
+	"description": "Boilerplate for creating projects in the JavaScript programming language. It includes the basic configuration of tools such as Webpack, Babel, Jest, Express, ESLint and Prettier.",
 	"author": "Łukasz Szymański",
 	"license": "MIT",
 	"main": "src/index.js",
@@ -15,7 +15,10 @@
 		"heroku-postbuild": "npm run build:prod",
 		"prettier:check": "npx prettier --check .",
 		"prettier:fix": "npx prettier --write .",
-		"start": "node server/server.js"
+		"start": "node server/server.js",
+		"test": "jest --config config/jest.config.js",
+		"test:coverage": "jest --config config/jest.config.js --coverage",
+		"test:watch": "jest --config config/jest.config.js --watch"
 	},
 	"repository": {
 		"type": "git",
@@ -34,6 +37,10 @@
 		"@babel/core": "^7.18.0",
 		"@babel/plugin-proposal-object-rest-spread": "^7.18.9",
 		"@babel/preset-env": "^7.18.0",
+		"@testing-library/dom": "^8.16.0",
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/user-event": "^14.3.0",
+		"babel-jest": "^28.1.3",
 		"babel-loader": "^8.2.5",
 		"copy-webpack-plugin": "^11.0.0",
 		"css-loader": "^6.7.1",
@@ -42,8 +49,11 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-import-resolver-webpack": "^0.13.2",
 		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jest": "^26.7.0",
 		"html-loader": "^4.1.0",
 		"html-webpack-plugin": "^5.5.0",
+		"jest": "^28.1.3",
+		"jest-environment-jsdom": "^28.1.3",
 		"mini-css-extract-plugin": "^2.6.1",
 		"prettier": "^2.7.1",
 		"sass": "^1.53.0",
