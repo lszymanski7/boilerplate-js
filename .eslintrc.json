@@ -62,13 +62,6 @@
 		}
 	],
 	"settings": {
-		"import/resolver": {
-			"webpack": {
-				"extensions": [
-					".js"
-				]
-			}
-		},
 		"jest": {
 			"version": "detect"
 		}
