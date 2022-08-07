@@ -7,7 +7,6 @@ module.exports = {
 		main: path.resolve(__dirname, '../src/index.js')
 	},
 	output: {
-		assetModuleFilename: 'assets/[name].[contenthash][ext][query]',
 		clean: true
 	},
 	module: {

@@ -9,14 +9,16 @@ module.exports = merge(common, {
 	mode: 'production',
 	devtool: 'source-map',
 	output: {
-		filename: 'index.[contenthash].bundle.js',
+		filename: 'static/js/[name].[contenthash:8].js',
+		chunkFilename: 'static/js/[id].[contenthash:8].chunk.js',
+		assetModuleFilename: 'static/media/[name].[contenthash:8][ext]',
 		path: path.resolve(__dirname, '../dist')
 	},
 	module: {
 		rules: [
 			// CSS | SCSS
 			{
-				test: /\.(scss|css)$/,
+				test: /\.(css|scss)$/,
 				use: [
 					MiniCssExtractPlugin.loader, 
 					'css-loader', 
@@ -27,7 +29,8 @@ module.exports = merge(common, {
 	},
 	plugins: [
 		new MiniCssExtractPlugin({
-			filename: 'styles.[contenthash].css',
+			filename: 'static/css/[name].[contenthash:8].css',
+			chunkFilename: 'static/css/[name].[contenthash:8].chunk.css',
 			ignoreOrder: false
 		})
 	],
