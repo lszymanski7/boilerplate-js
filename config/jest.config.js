@@ -16,7 +16,6 @@ module.exports = {
 		}
 	},
 	rootDir: '../',
-	setupFilesAfterEnv: ['<rootDir>/src/__tests__/setupTests.js'],
 	testEnvironment: 'jest-environment-jsdom',
 	testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
 	transform: {
