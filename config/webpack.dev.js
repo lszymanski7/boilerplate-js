@@ -6,14 +6,16 @@ module.exports = merge(common, {
 	mode: 'development',
 	devtool: 'inline-source-map',
 	output: {
-		filename: 'index.bundle.js',
+		filename: 'static/js/[name].js',
+		chunkFilename: 'static/js/[name].chunk.js',
+		assetModuleFilename: 'static/media/[name][ext]',
 		path: path.resolve(__dirname, '../dist')
 	},
 	module: {
 		rules: [
-			// CSS & SCSS
+			// CSS | SCSS
 			{
-				test: /\.(scss|css)$/,
+				test: /\.(css|scss)$/,
 				use: [
 					'style-loader', 
 					'css-loader', 
@@ -23,9 +25,6 @@ module.exports = merge(common, {
 		]
 	},
 	devServer: {
-		static: {
-			directory: path.resolve(__dirname, '../dist')
-		},
 		client: {
 			logging: 'warn'
 		},

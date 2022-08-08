@@ -7,7 +7,6 @@ module.exports = {
 		main: path.resolve(__dirname, '../src/index.js')
 	},
 	output: {
-		assetModuleFilename: 'assets/[name].[contenthash][ext][query]',
 		clean: true
 	},
 	module: {
@@ -20,9 +19,9 @@ module.exports = {
 			},
 			// HTML
 			{
-                test: /\.html$/,
-                use: 'html-loader'
-            },
+				test: /\.html$/,
+				use: 'html-loader'
+			},
 			// Images
 			{
 				test: /\.(png|jpe?g|gif|svg|ico)$/,
