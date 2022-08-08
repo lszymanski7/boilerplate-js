@@ -19,9 +19,9 @@ module.exports = {
 			},
 			// HTML
 			{
-                test: /\.html$/,
-                use: 'html-loader'
-            },
+				test: /\.html$/,
+				use: 'html-loader'
+			},
 			// Images
 			{
 				test: /\.(png|jpe?g|gif|svg|ico)$/,
