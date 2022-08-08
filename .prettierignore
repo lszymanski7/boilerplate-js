@@ -7,9 +7,6 @@
 /.pnp
 .pnp.js
 
-# Build
-/build
-
 # Distribution
 /dist
 

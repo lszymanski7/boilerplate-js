@@ -5,10 +5,7 @@
 # Dependencies
 /node_modules
 /.pnp
-.pnp.js
-
-# Build
-/build
+.pnp.jss
 
 # Distribution
 /dist
