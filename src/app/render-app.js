@@ -1,4 +1,4 @@
-import logo from '../assets/images/index'
+import logoJS from '../utils/constants'
 
 const renderApp = () => {
 	const div = document.createElement('div')
@@ -7,7 +7,7 @@ const renderApp = () => {
 	div.innerHTML = `
 		<img 
 			class="container__logo" 
-			src="${logo.size_256x256}" 
+			src="${logoJS.size_256x256}" 
 			alt="JavaScript Boilerplate" 
 		/>
 		<h1 class="container__title">JavaScript Boilerplate</h1>
