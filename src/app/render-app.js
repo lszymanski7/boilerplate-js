@@ -1,4 +1,4 @@
-import logoJS from '../utils/constants'
+import javascriptLogo from '../utils/constants'
 
 const renderApp = () => {
 	const div = document.createElement('div')
@@ -7,11 +7,11 @@ const renderApp = () => {
 	div.innerHTML = `
 		<img 
 			class="container__logo" 
-			src="${logoJS.size_256x256}" 
+			src="${javascriptLogo.size_256x256}" 
 			alt="JavaScript Boilerplate" 
 		/>
 		<h1 class="container__title">JavaScript Boilerplate</h1>
-    `
+	`
 
 	document.getElementById('root').appendChild(div)
 }
