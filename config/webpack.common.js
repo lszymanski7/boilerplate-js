@@ -21,16 +21,6 @@ module.exports = {
 			{
 				test: /\.html$/,
 				use: 'html-loader'
-			},
-			// Images
-			{
-				test: /\.(png|jpe?g|gif|svg|ico)$/,
-				type: 'asset/resource'
-			},
-			// Fonts
-			{
-				test: /\.(woff(2)?|eot|ttf|otf)$/,
-				type: 'asset/inline'
 			}
 		]
 	},

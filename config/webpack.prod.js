@@ -8,11 +8,11 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 module.exports = merge(common, {
 	mode: 'production',
 	devtool: 'source-map',
+	stats: 'normal',
 	output: {
 		filename: 'static/js/[name].[contenthash:8].js',
 		chunkFilename: 'static/js/[id].[contenthash:8].chunk.js',
-		assetModuleFilename: 'static/media/[name].[contenthash:8][ext]',
-		path: path.resolve(__dirname, '../dist')
+		path: path.resolve(__dirname, '../build')
 	},
 	module: {
 		rules: [
@@ -24,6 +24,30 @@ module.exports = merge(common, {
 					'css-loader', 
 					'sass-loader'
 				]
+			},
+			// Fonts
+			{
+				test: /\.(woff(2)?|eot|ttf|otf)$/,
+				type: 'asset/inline',
+				generator: {
+					filename: 'static/fonts/[name].[contenthash:8][ext]'
+				}
+			},
+			// Images
+			{
+				test: /\.(png|jpe?g|gif|svg|ico|webp|tiff)$/,
+				type: 'asset/resource',
+				generator: {
+					filename: 'static/images/[name].[contenthash:8][ext]'
+				}
+			},
+			// Media
+			{
+				test: /\.(mp4|webm|wav|mp3|m4a|aac|oga)$/,
+				type: 'asset/resource',
+				generator: {
+					filename: 'static/media/[name].[contenthash:8][ext]'
+				}
 			}
 		]
 	},
