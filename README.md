@@ -71,16 +71,16 @@ The following technologies and tools were used in the project:
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.19.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-424242?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
-<!-- Getting Started -->
+<!-- GETTING STARTED -->
 ## Getting Started
 
-<!-- Prerequisites -->
+<!-- PREREQUISITES -->
 ### Prerequisites
 > You can download Node.js installer [here](https://nodejs.org/en/download).
 
 This project was created using the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
   
-<!-- Installation -->
+<!-- INSTALLATION -->
 ### Installation
 Follow all of the steps below to get a local copy of the project and be able to run it.
 
@@ -105,43 +105,52 @@ The application will be launched at the following url: <a href="http://localhost
 
 <!-- SCRIPTS -->
 ## Scripts
-The available scripts with descriptions are listed below.
-
-```properties
-# Run Webpack with development configuration.
+- Run Webpack with development configuration.
+```
 npm run build:dev
-
-# Run Webpack with production configuration.
+```
+- Run Webpack with production configuration.
+```
 npm run build:prod
-
-# Start the Webpack Dev Server and run the application at the following url: http://localhost:8080
+```
+- Start the Webpack Dev Server and run the application at the following url: http://localhost:8080
+```
 npm run dev-server
-
-# Run ESLint to check JavaScript code and find problems.
+```
+- Run ESLint to check JavaScript code and find problems.
+```
 npm run eslint:check
-
-# Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
+```
+- Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
+```
 npm run eslint:fix
-
-# Execute build:prod script on Heroku.
+```
+- Execute build:prod script on Heroku.
+```
 npm run heroku-postbuild
-
-# Run Prettier to check if all supported files are formatted. 
+```
+- Run Prettier to check if all supported files are formatted. 
+```
 npm run prettier:check
-
-# Run Prettier to format all supported files in the current directory and its subdirectories.
+```
+- Run Prettier to format all supported files in the current directory and its subdirectories.
+```
 npm run prettier:fix
-
-# Start the Express server and run the application at the following url: http://localhost:3000
+```
+- Start the Express server and run the application at the following url: http://localhost:3000
+```
 npm run start
-
-# Run all tests with the settings specified in the configuration file.
+```
+- Run all tests with the settings specified in the configuration file.
+```
 npm run test
-
-# Generate code coverage report.
+```
+- Generate code coverage report.
+```
 npm run test:coverage
-
-# Run all tests in watch mode.
+```
+- Run all tests in watch mode.
+```
 npm run test:watch
 ```
   
