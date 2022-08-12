@@ -1,13 +1,13 @@
-import javascriptLogo from '../utils/constants'
+import logo from '../utils/constants'
 
 const renderApp = () => {
 	const div = document.createElement('div')
 
-	div.className = 'container-centered'
+	div.className = 'container'
 	div.innerHTML = `
 		<img 
-			class="javascript-logo" 
-			src="${javascriptLogo.size_256x256}" 
+			class="img-logo" 
+			src="${logo.size_256x256}" 
 			alt="JavaScript Logo" 
 		/>
 		<h1 class="text-white">JavaScript Boilerplate</h1>
