@@ -3,14 +3,14 @@ import javascriptLogo from '../utils/constants'
 const renderApp = () => {
 	const div = document.createElement('div')
 
-	div.className = 'container'
+	div.className = 'container-centered'
 	div.innerHTML = `
 		<img 
-			class="container__logo" 
+			class="javascript-logo" 
 			src="${javascriptLogo.size_256x256}" 
-			alt="JavaScript Boilerplate" 
+			alt="JavaScript Logo" 
 		/>
-		<h1 class="container__title">JavaScript Boilerplate</h1>
+		<h1 class="text-white">JavaScript Boilerplate</h1>
 	`
 
 	document.getElementById('root').appendChild(div)
