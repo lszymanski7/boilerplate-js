@@ -25,20 +25,23 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-<ol>
-  <li><a href="#features">Features</a></li>
-  <li><a href="#technologies">Technologies</a></li>
-  <li>
-    <a href="#getting-started">Getting Started</a>
-    <ul>
-      <li><a href="#prerequisites">Prerequisites</a></li>
-      <li><a href="#installation">Installation</a></li>
-    </ul>
-  </li>
-  <li><a href="#scripts">Scripts</a></li>
-  <li><a href="#bugs-and-features">Bugs and Features</a></li>
-  <li><a href="#license">License</a></li>
-</ol>
+1. [Features](#features)
+2. [Technologies](#technologies)
+3. [Development](#development)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Compilation](#compilation)
+    - [Webpack Dev Server](#webpack-dev-server)
+    - [ESLint](#eslint)
+    - [Prettier](#prettier)
+4. [Testing](#testing)
+5. [Production](#production)
+6. [Heroku](#heroku)
+    - [Prerequisites](#prerequisites-1)
+    - [Deployment](#deployment)
+7. [Contributing](#contributing)
+8. [Acknowledgements](#acknowledgements)
+9. [License](#license)
   
 <!-- FEATURES -->
 ## Features
@@ -71,8 +74,8 @@ The following technologies and tools were used in the project:
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.19.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-424242?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- DEVELOPMENT -->
+## Development
 
 <!-- PREREQUISITES -->
 ### Prerequisites
@@ -103,53 +106,41 @@ npm run start
 
 The application will be launched at the following url: <a href="http://localhost:3000">http://localhost:3000<a/>
 
-<!-- SCRIPTS -->
-## Scripts
-The available scripts with descriptions are listed below.
+<!-- COMPILATION -->
+### Compilation
 
-```properties
-# Run Webpack with development configuration.
-npm run build:dev
+<!-- WEBPACK DEV SERVER -->
+### Webpack Dev Server
 
-# Run Webpack with production configuration.
-npm run build:prod
+<!-- ESLINT -->
+### ESLint
 
-# Start the Webpack Dev Server and run the application at the following url: http://localhost:8080
-npm run dev-server
+<!-- PRETTIER -->
+### Prettier
 
-# Run ESLint to check JavaScript code and find problems.
-npm run eslint:check
+<!-- TESTING -->
+## Testing
 
-# Run ESLint to find issues and try to fix them. Not all problems are fixable using this option.
-npm run eslint:fix
+<!-- PRODUCTION -->
+## Production
 
-# Execute build:prod script on Heroku.
-npm run heroku-postbuild
+<!-- HEROKU -->
+## Heroku
 
-# Run Prettier to check if all supported files are formatted. 
-npm run prettier:check
+<!-- PREREQUISITES -->
+### Prerequisites
 
-# Run Prettier to format all supported files in the current directory and its subdirectories.
-npm run prettier:fix
+<!-- DEPLOYMENT -->
+### Deployment
 
-# Start the Express server and run the application at the following url: http://localhost:3000
-npm run start
-
-# Run all tests with the settings specified in the configuration file.
-npm run test
-
-# Generate code coverage report.
-npm run test:coverage
-
-# Run all tests in watch mode.
-npm run test:watch
-```
-  
-<!-- BUGS AND FEATURES -->
-## Bugs and Features  
+<!-- CONTRIBUTING -->
+## Contributing
 > You can report bugs and request new features [here](https://github.com/lszymanski7/boilerplate-js/issues). 
   
 Please search the existing bugs and feature requests before you file one yourself.
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 
 <!-- LICENSE -->
 ## License
