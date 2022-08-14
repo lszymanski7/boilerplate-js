@@ -12,13 +12,13 @@
     "useTabs": false,
     "overrides": [
         {
-            "files": "*.html",
+            "files": "**/*.html",
             "options": {
                 "singleAttributePerLine": false
             }
         },
         {
-            "files": ["*.css", "*.scss"],
+            "files": ["**/*.css", "**/*.scss"],
             "options": {
                 "semi": true,
                 "tabWidth": 2,
