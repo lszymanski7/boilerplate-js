@@ -45,22 +45,20 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
   
 <!-- FEATURES -->
 ## Features
-- Webpack configuration split into three files to separate the production and development environments. Provides support for Webpack Dev Server and plugins such as: 
+- Webpack configuration split into three files to separate development and production environments. Provides support for Webpack Dev Server and plugins such as: 
   - html-webpack-plugin,
   - copy-webpack-plugin,
   - mini-css-extract-plugin,
   - css-minimizer-webpack-plugin,
   - terser-webpack-plugin.
 - Converting ECMAScript 2015+ code into a backwards compatible version of JavaScript. 
-- Possibility to conduct unit tests.
-- A simple Express server that allows you to deploy your application in Heroku.
+- Possibility to conduct unit tests and generate code coverage.
+- A simple Express server that allows you to deploy your application to Heroku.
 - Checking JavaScript code to find existing problems.
 - Formatting all supported files.
 
 <!-- TECHNOLOGIES -->
 ## Technologies
-The following technologies and tools were used in the project:
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-424242?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-424242?style=flat&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-424242?style=flat&logo=css3&logoColor=1572B6)
@@ -74,6 +72,8 @@ The following technologies and tools were used in the project:
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.19.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-424242?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
+All technologies and tools were used in the latest version at the time of creating the project.
+
 <!-- DEVELOPMENT -->
 ## Development
 
@@ -81,30 +81,29 @@ The following technologies and tools were used in the project:
 ### Prerequisites
 > You can download Node.js installer [here](https://nodejs.org/en/download).
 
-This project was created using the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
+This project was created with the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
   
 <!-- INSTALLATION -->
 ### Installation
-Follow all of the steps below to get a local copy of the project and be able to run it.
+Follow all of the steps below to get a local copy of the project and install any dependencies required to run it.
 
 1. Clone the repository.
+
 ```
-git clone https://github.com/lszymanski7/boilerplate-js.git
-```
-2. Navigate to the project directory.
-```
-cd boilerplate-js
-```
-3. Install all dependencies.
-```
-npm install
-```
-4. Start the Express server.
-```
-npm run start
+$ git clone https://github.com/lszymanski7/boilerplate-js.git
 ```
 
-The application will be launched at the following url: <a href="http://localhost:3000">http://localhost:3000<a/>
+2. Navigate to the project directory.
+
+```
+$ cd boilerplate-js
+```
+
+3. Install all dependencies.
+
+```
+$ npm install
+```
 
 <!-- COMPILATION -->
 ### Compilation
@@ -114,6 +113,21 @@ The application will be launched at the following url: <a href="http://localhost
 
 <!-- ESLINT -->
 ### ESLint
+ESLint is a tool designed to find and fix problems in ECMAScript/JavaScript code. Thanks to its use, the code is more consistent and free from common bugs. It's also fully customizable. You can disable any rule that doesn't meet your project's requirements.
+
+Run the command below to check JavaScript code and find any existing problems.
+
+```
+$ npm run eslint:check
+```
+
+Another command allows you to find issues and fix them. Keep in mind that not all problems are fixable using this option. You can also ignore specific files and directories from this process in the [.eslintignore](https://github.com/lszymanski7/boilerplate-js/blob/main/.eslintignore) file.
+
+> **Warning** This overwrites your files!
+
+```
+$ npm run eslint:fix
+```
 
 <!-- PRETTIER -->
 ### Prettier
@@ -135,9 +149,6 @@ The application will be launched at the following url: <a href="http://localhost
 
 <!-- CONTRIBUTING -->
 ## Contributing
-> You can report bugs and request new features [here](https://github.com/lszymanski7/boilerplate-js/issues). 
-  
-Please search the existing bugs and feature requests before you file one yourself.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
