@@ -1,20 +1,20 @@
 <!-- APPLICATION PREVIEW -->
 <div align="center">
-  
+
   ![JavaScript Boilerplate Header](./docs/application.png)
-  
+
 </div>
 
 <!-- SHIELDS -->
 <div align="center">
-  
+
   ![Version](https://img.shields.io/badge/version-1.0.0-blue?label=Version&labelColor=424242)
   ![GitHub Repository Size](https://img.shields.io/github/repo-size/lszymanski7/boilerplate-js?label=Size&labelColor=424242)
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg?label=License&labelColor=424242)](https://github.com/lszymanski7/boilerplate-js/blob/main/LICENSE.md)
   ![GitHub Last Commit](https://img.shields.io/github/last-commit/lszymanski7/boilerplate-js?label=Last%20Commit&labelColor=424242)
   ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/boilerplate-js?label=Pull%20Requests&labelColor=424242)
   ![GitHub Issues](https://img.shields.io/github/issues/lszymanski7/boilerplate-js?label=Issues&labelColor=424242)
-  
+
 </div>
 
 <br/>
@@ -30,22 +30,19 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
 3. [Development](#development)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-    - [Compilation](#compilation)
-    - [Webpack Dev Server](#webpack-dev-server)
+    - [Webpack](#webpack)
     - [ESLint](#eslint)
     - [Prettier](#prettier)
 4. [Testing](#testing)
 5. [Production](#production)
-6. [Heroku](#heroku)
-    - [Prerequisites](#prerequisites-1)
-    - [Deployment](#deployment)
+6. [Deployment](#deployment)
 7. [Contributing](#contributing)
 8. [Acknowledgements](#acknowledgements)
 9. [License](#license)
-  
+
 <!-- FEATURES -->
 ## Features
-- Webpack configuration split into three files to separate development and production environments. Provides support for Webpack Dev Server and plugins such as: 
+- Webpack configuration split into three files to separate development and production environments. Provides support for webpack-dev-server and plugins such as: 
   - html-webpack-plugin,
   - copy-webpack-plugin,
   - mini-css-extract-plugin,
@@ -72,17 +69,17 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.19.0-424242?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.7.1-424242?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
-All technologies and tools were used in the latest version at the time of creating the project.
+All technologies and tools were used in the latest version at the time of creating this project.
 
 <!-- DEVELOPMENT -->
 ## Development
 
 <!-- PREREQUISITES -->
 ### Prerequisites
-> You can download Node.js installer [here](https://nodejs.org/en/download).
+> **Note** Download [Node.js](https://nodejs.org/en/download) installer.
 
 This project was created with the Node.js (v18.6.0) runtime environment and the NPM (v8.15.0) for package management. Use the Node.js installer to install both of them on your system.
-  
+
 <!-- INSTALLATION -->
 ### Installation
 Follow all of the steps below to get a local copy of the project and install any dependencies required to run it.
@@ -105,11 +102,8 @@ $ cd boilerplate-js
 $ npm install
 ```
 
-<!-- COMPILATION -->
-### Compilation
-
-<!-- WEBPACK DEV SERVER -->
-### Webpack Dev Server
+<!-- WEBPACK -->
+### Webpack
 
 <!-- ESLINT -->
 ### ESLint
@@ -131,6 +125,21 @@ $ npm run eslint:fix
 
 <!-- PRETTIER -->
 ### Prettier
+Prettier is an opinionated code formatter. This tool enforces a consistent code style and allows you to define the formatting rules according to your preferences. Its use will significantly save your time and energy. 
+
+In this project, there are two commands at your disposal. The first allows you to check if all files are formatted.
+
+```
+$ npm run prettier:check
+```
+
+To format all files supported by Prettier in the current directory and its subdirectories, run the second command. If you want to ignore things that shouldn't be formatted, you can use a [.prettierignore](https://github.com/lszymanski7/boilerplate-js/blob/main/.prettierignore) file.
+
+> **Warning** This overwrites your files!
+
+```
+$ npm run prettier:fix
+```
 
 <!-- TESTING -->
 ## Testing
@@ -138,14 +147,8 @@ $ npm run eslint:fix
 <!-- PRODUCTION -->
 ## Production
 
-<!-- HEROKU -->
-## Heroku
-
-<!-- PREREQUISITES -->
-### Prerequisites
-
 <!-- DEPLOYMENT -->
-### Deployment
+## Deployment
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -156,11 +159,11 @@ $ npm run eslint:fix
 <!-- LICENSE -->
 ## License
 > You can check out the full license [here](https://github.com/lszymanski7/boilerplate-js/blob/main/LICENSE.md).
-  
+
 This project is licensed under the terms of the **MIT** license.
-  
+
 <br/>
- 
+
 <!-- LINKS -->
 ##
 <div align="center">
@@ -170,5 +173,5 @@ This project is licensed under the terms of the **MIT** license.
   [![GitLab](https://img.shields.io/badge/GitLab-424242?style=flat&logo=gitlab)](https://gitlab.com/lszymanski7)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/lszymanski7)
   [![Twitter](https://img.shields.io/twitter/follow/lszymanski7_?label=Twitter&style=social)](https://twitter.com/lszymanski7_)
-  
+
 </div>
