@@ -127,7 +127,7 @@ $ npm run eslint:fix
 ### Prettier
 Prettier is an opinionated code formatter. This tool enforces a consistent code style and allows you to define the formatting rules according to your preferences. Its use will significantly save your time and energy. 
 
-In this project, there are two commands at your disposal. The first allows you to check if all files are formatted.
+In this project, there are two commands at your disposal. The first one checks that all files are formatted.
 
 ```
 $ npm run prettier:check
@@ -149,6 +149,27 @@ $ npm run prettier:fix
 
 <!-- DEPLOYMENT -->
 ## Deployment
+> **Note** Download [Git](https://git-scm.com/downloads) and [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli) installers.
+
+This project is adapted for deploying applications to Heroku using Git. First of all, you must have Git and Heroku CLI installed on your machine. Once both tools are configured, initialize a local Git repository and commit your code to it.
+
+The next step is to create a new empty application on Heroku. You can do this with the `heroku create` command. It'll also set up a remote named heroku for your local repository.
+
+```
+$ heroku create -a herokuapp-name
+```
+
+If you've already created a heroku app, you can use the command below to add a remote to your local repository.
+
+```
+$ heroku git:remote -a herokuapp-name
+```
+
+After everything is set up, you can finally deploy your code to Heroku. Run the `git push` command to complete this process. Your code will be pushed from local repository’s main branch to heroku remote.
+
+```
+$ git push heroku main
+```
 
 <!-- CONTRIBUTING -->
 ## Contributing
