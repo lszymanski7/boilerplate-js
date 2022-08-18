@@ -143,6 +143,20 @@ $ npm run prettier:fix
 
 <!-- TESTING -->
 ## Testing
+This project uses Jest - a JavaScript testing framework. It was designed to ensure the correctness of the code. Jest allows you to write tests that returns results quickly. Moreover, this tool can be extended to suit your requirements.
+
+Use one of these two scripts to run your tests. The second option turns on the watch mode. After the testing process is complete, the relevant information will be displayed to the console.
+
+```
+$ npm run test
+$ npm run test:watch
+```
+
+The command below is used to collect code coverage information from directories specified in the [jest.config.js](https://github.com/lszymanski7/boilerplate-js/blob/dev/config/jest.config.js) file. All output files will be available in the `./coverage` folder.
+
+```
+$ npm run test:coverage
+```
 
 <!-- PRODUCTION -->
 ## Production
@@ -153,19 +167,19 @@ $ npm run prettier:fix
 
 This project is adapted for deploying applications to Heroku using Git. First of all, you must have Git and Heroku CLI installed on your machine. Once both tools are configured, initialize a local Git repository and commit your code to it.
 
-The next step is to create a new empty application on Heroku. You can do this with the `heroku create` command. It'll also set up a remote named heroku for your local repository.
+The next step is to create a new empty application on Heroku. You can do this with the `heroku create` command. It'll also set up a `heroku` remote for your local repository.
 
 ```
 $ heroku create -a herokuapp-name
 ```
 
-If you've already created a heroku app, you can use the command below to add a remote to your local repository.
+If you've already created a Heroku app, you can use the command below to add a remote to your local repository.
 
 ```
 $ heroku git:remote -a herokuapp-name
 ```
 
-After everything is set up, you can finally deploy your code to Heroku. Run the `git push` command to complete this process. Your code will be pushed from local repository’s main branch to heroku remote.
+After everything is set up, you can finally deploy your code to Heroku. Run the `git push` command to complete this process. Your code will be pushed from local repository’s `main` branch to `heroku` remote.
 
 ```
 $ git push heroku main
