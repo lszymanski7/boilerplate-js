@@ -42,12 +42,12 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
 
 <!-- FEATURES -->
 ## Features
-- Webpack configuration split into three files to separate development and production environments. Provides support for webpack-dev-server and plugins such as: 
-  - html-webpack-plugin,
-  - copy-webpack-plugin,
-  - mini-css-extract-plugin,
-  - css-minimizer-webpack-plugin,
-  - terser-webpack-plugin.
+- Webpack configuration split into three files to separate development and production environments. Provides support for `webpack-dev-server` and plugins such as: 
+  - `html-webpack-plugin`,
+  - `copy-webpack-plugin`,
+  - `mini-css-extract-plugin`,
+  - `css-minimizer-webpack-plugin`,
+  - `terser-webpack-plugin`.
 - Converting ECMAScript 2015+ code into a backwards compatible version of JavaScript. 
 - Possibility to conduct unit tests and generate code coverage.
 - A simple Express server that allows you to deploy your application to Heroku.
@@ -143,7 +143,7 @@ $ npm run prettier:fix
 
 <!-- TESTING -->
 ## Testing
-This project uses Jest - a JavaScript testing framework. It was designed to ensure the correctness of the code. Jest allows you to write tests that returns results quickly. Moreover, this tool can be extended to suit your requirements.
+This project uses Jest. It's a JavaScript testing framework which was designed to ensure the correctness of the code. Jest allows you to write tests that returns results quickly. Moreover, this tool can be extended to suit your project's requirements.
 
 Use one of these two scripts to run your tests. The second option turns on the watch mode. After the testing process is complete, the relevant information will be displayed to the console.
 
