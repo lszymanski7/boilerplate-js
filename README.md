@@ -106,15 +106,9 @@ $ npm install
 ### Webpack
 The development environment mainly focuses on strong source mapping and using localhost server with live reload or hot module replacement. This makes it easier to find errors and you don't have to manually run the command to compile your code whenever it changes.
 
-In this environment, the webpack configuration uses `eval-source-map` as devtool. It provides a fast rebuild speed and correctly mapped line numbers, which is very helpful in the development process. 
+In this environment, the webpack configuration uses `eval-source-map` as devtool. It provides a fast rebuild and correctly mapped line numbers, which is very helpful in the development process. 
 
-
-
-
-<!-- Enable webpack's Hot Module Replacement feature: -->
-
-
-If you want to start `webpack-dev-server`, use the command below. This web server has enabled a hot reload replacement feature. The application will be launched at the following url: [http://localhost:8080](http://localhost:8080)
+If you want to run  `webpack-dev-server` with Hot Module Replacement (HMR), use the command below. The application will be launched at the following url: [http://localhost:8080](http://localhost:8080)
 
 ```
 $ npm run dev-server
