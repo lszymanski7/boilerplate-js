@@ -9,11 +9,10 @@
 @import 
   './abstracts/functions',
   './abstracts/mixins',
-  './abstracts/placeholders',
   './abstracts/variables';
 
 @import 
-  './base/global',
+  './base/base',
   './base/reset',
   './base/typography';
 
