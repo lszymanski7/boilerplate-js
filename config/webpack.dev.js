@@ -1,6 +1,5 @@
 const common = require('./webpack.common.js')
 const { merge } = require('webpack-merge')
-const path = require('path')
 
 module.exports = merge(common, {
     mode: 'development',
@@ -8,8 +7,7 @@ module.exports = merge(common, {
     stats: 'minimal',
     output: {
         filename: 'static/js/[name].js',
-        chunkFilename: 'static/js/[name].chunk.js',
-        path: path.resolve(__dirname, '../build')
+        chunkFilename: 'static/js/[name].chunk.js'
     },
     module: {
         rules: [
@@ -51,7 +49,9 @@ module.exports = merge(common, {
         compress: true,
         historyApiFallback: true,
         hot: true,
+        liveReload: false,
         open: true,
-        port: 8080
+        port: 8080,
+        static: false
     }
 })

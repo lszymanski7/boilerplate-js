@@ -1,6 +1,5 @@
 const common = require('./webpack.common.js')
 const { merge } = require('webpack-merge')
-const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
@@ -11,8 +10,7 @@ module.exports = merge(common, {
     stats: 'normal',
     output: {
         filename: 'static/js/[name].[contenthash:8].js',
-        chunkFilename: 'static/js/[id].[contenthash:8].chunk.js',
-        path: path.resolve(__dirname, '../build')
+        chunkFilename: 'static/js/[id].[contenthash:8].chunk.js'
     },
     module: {
         rules: [
