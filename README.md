@@ -59,7 +59,7 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
 ![JavaScript](https://img.shields.io/badge/JavaScript-424242?style=flat&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML-424242?style=flat&logo=html5&logoColor=E34F26)
 ![CSS](https://img.shields.io/badge/CSS-424242?style=flat&logo=css3&logoColor=1572B6)
-[![SASS](https://img.shields.io/badge/SASS%20|%20v1.53.0-424242?style=flat&logo=SASS&logoColor=CC6699)](https://sass-lang.com)
+[![Sass](https://img.shields.io/badge/Sass%20|%20v1.53.0-424242?style=flat&logo=Sass&logoColor=CC6699)](https://sass-lang.com)
 [![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.72.1-424242?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
 [![Babel](https://img.shields.io/badge/Babel%20|%20v7.18.0-424242?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
 [![Jest](https://img.shields.io/badge/Jest%20|%20v28.1.3-424242?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
@@ -214,15 +214,15 @@ $ git push heroku main
 
 <!-- CONTRIBUTING -->
 ## Contributing
+Any contributions are greatly appreciated. Use the [issue tracker](https://github.com/lszymanski7/boilerplate-js/issues) on GitHub if you want to report bugs, request a new feature or improve documentation. Please check for existing issues before you report them yourself.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+- For more info about 7-1 Sass Architecture, please refer to [Sass Guidelines](https://sass-guidelin.es/#architecture) by Kitty Giraudel.
 
 <!-- LICENSE -->
 ## License
-> **Note** You can check out the full license [here](https://github.com/lszymanski7/boilerplate-js/blob/main/LICENSE.md).
-
-This project is licensed under the terms of the **MIT** license.
+This project is licensed under the terms of the [MIT License](https://github.com/lszymanski7/boilerplate-js/blob/main/LICENSE.md).
 
 <br/>
 
