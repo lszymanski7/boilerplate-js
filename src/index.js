@@ -1,7 +1,20 @@
 import '@csstools/normalize.css'
 import './assets/sass/main.scss'
-import printInfo from './app/print-info'
 import renderApp from './app/render-app'
 
-printInfo()
 renderApp()
+
+console.log(
+    '+--------------+---------------------------------------------------------------------------+\n' +
+    '| Project name | JavaScript Boilerplate                                                    |\n' +
+    '+--------------+---------------------------------------------------------------------------+\n' +
+    '| Description  | Boilerplate for creating projects in the JavaScript programming language. |\n' +
+    '|              | It includes the basic configuration of tools such as Webpack, Babel,      |\n' +
+    '|              | Jest, Express, ESLint and Prettier.                                       |\n' +
+    '+--------------+---------------------------------------------------------------------------+\n' +
+    '| Keywords     | Boilerplate, JavaScript, HTML, CSS, Sass, Webpack, Babel, Jest, Node.js,  |\n' +
+    '|              | Npm, Express, ESLint, Prettier                                            |\n' +
+    '+--------------+---------------------------------------------------------------------------+\n' +
+    '| Version      | v1.0.0                                                                    |\n' +
+    '+--------------+---------------------------------------------------------------------------+'
+)
