@@ -106,7 +106,7 @@ $ npm install
 ### Webpack
 The development environment mainly focuses on strong source mapping and using localhost server with live reload or hot module replacement. This makes it easier to find errors and you don't have to manually run the command to compile your code whenever it changes.
 
-In this environment, the webpack configuration uses `eval-source-map` as devtool. It provides a fast rebuild and correctly mapped line numbers, which is very helpful in the development process. 
+In this environment, the webpack configuration uses `eval-source-map` as devtool. It provides fast rebuild and correctly mapped line numbers, which is very helpful in the development process. 
 
 If you want to run  `webpack-dev-server` with Hot Module Replacement (HMR), use the command below. The application will be launched at the following url: [http://localhost:8080](http://localhost:8080)
 
@@ -152,7 +152,7 @@ $ npm run prettier:fix
 
 <!-- TESTING -->
 ## Testing
-This project uses Jest. It's a JavaScript testing framework which was designed to ensure the correctness of the code. Jest allows you to write tests that returns results quickly. Moreover, this tool can be extended to suit your project's requirements.
+This project uses Jest. It's a JavaScript testing framework designed to ensure the correctness of the code. Jest allows you to write tests that returns results quickly. Moreover, this tool can be extended to suit your project's requirements.
 
 Use one of these two scripts to run your tests. The second option turns on the watch mode. After the testing process is complete, the relevant information will be displayed to the console.
 
@@ -214,7 +214,7 @@ $ git push heroku main
 
 <!-- CONTRIBUTING -->
 ## Contributing
-Any contributions are greatly appreciated. Use the [issue tracker](https://github.com/lszymanski7/boilerplate-js/issues) on GitHub if you want to report bugs, request a new feature or improve documentation. Please check for existing issues before you report them yourself.
+Any contributions are greatly appreciated. Use the [issue tracker](https://github.com/lszymanski7/boilerplate-js/issues) if you want to report bugs, request a new feature or improve documentation. Please check for existing issues before you report them yourself.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
