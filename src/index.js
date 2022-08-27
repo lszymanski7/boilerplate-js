@@ -1,8 +1,8 @@
 import '@csstools/normalize.css'
 import './assets/sass/main.scss'
-import renderApp from './app/render-app'
+import render from './app/render'
 
-renderApp()
+render()
 
 console.log(
     '+--------------+---------------------------------------------------------------------------+\n' +
