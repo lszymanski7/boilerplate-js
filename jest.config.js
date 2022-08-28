@@ -1,5 +1,5 @@
 module.exports = {
-    collectCoverageFrom: ['<rootDir>/src/app/**'],
+    collectCoverageFrom: ['<rootDir>/src/scripts/**'],
     coverageDirectory: '<rootDir>/coverage',
     coverageReporters: ['html', 'text'],
     coverageThreshold: {

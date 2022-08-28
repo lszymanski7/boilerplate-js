@@ -1,6 +1,6 @@
 import '@csstools/normalize.css'
 import './styles/main.scss'
-import render from './app/render'
+import render from './scripts/render-app'
 
 render()
 
