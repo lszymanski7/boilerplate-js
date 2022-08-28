@@ -7,17 +7,17 @@
     "main": "src/index.js",
     "private": true,
     "scripts": {
-        "build": "webpack --config config/webpack.prod.js",
-        "dev-server": "webpack serve --config config/webpack.dev.js",
+        "build": "webpack --config webpack/webpack.prod.js",
+        "dev-server": "webpack serve --config webpack/webpack.dev.js",
         "eslint:check": "npx eslint .",
         "eslint:fix": "npx eslint --fix .",
         "heroku-postbuild": "npm run build:prod",
         "prettier:check": "npx prettier --check .",
         "prettier:fix": "npx prettier --write .",
         "start": "node server/server.js",
-        "test": "jest --config config/jest.config.js",
-        "test:coverage": "jest --config config/jest.config.js --coverage",
-        "test:watch": "jest --config config/jest.config.js --watch"
+        "test": "jest --config jest.config.js",
+        "test:coverage": "jest --config jest.config.js --coverage",
+        "test:watch": "jest --config jest.config.js --watch"
     },
     "repository": {
         "type": "git",

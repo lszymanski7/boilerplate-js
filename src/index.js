@@ -1,5 +1,5 @@
 import '@csstools/normalize.css'
-import './assets/sass/main.scss'
+import './styles/main.scss'
 import render from './app/render'
 
 render()
