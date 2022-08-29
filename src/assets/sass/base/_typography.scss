@@ -1,7 +1,9 @@
 // ===========================================================================
-// Image styles
+// Typography styles
 // ===========================================================================
 
-.img-logo {
-  padding: 0 0 map-get($spaces, 'lg') 0;
+body {
+  color: map-get($colors, 'basic', 'black');
+  font-family: $font-family-sans-serif;
+  font-size: map-get($font-sizes, 'md');
 }
