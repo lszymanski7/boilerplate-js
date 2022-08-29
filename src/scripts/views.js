@@ -1,7 +1,7 @@
 import logo from '../utils/constants'
 
 const render = () => {
-    document.getElementById('home-root').innerHTML = `
+    document.getElementById('root').innerHTML = `
         <div class="home-container">
             <img
                 class="home-logo"
