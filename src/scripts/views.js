@@ -1,4 +1,4 @@
-import logo from '../data/constants'
+import logo from '../utils/constants'
 
 const render = () => {
     document.getElementById('home-root').innerHTML = `
