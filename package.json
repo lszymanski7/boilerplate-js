@@ -4,7 +4,7 @@
     "description": "Boilerplate for creating projects in the JavaScript programming language. It includes the basic configuration of tools such as Webpack, Babel, Jest, Express, ESLint and Prettier.",
     "author": "Łukasz Szymański",
     "license": "MIT",
-    "main": "src/index.js",
+    "main": "src/scripts/index.js",
     "private": true,
     "scripts": {
         "build": "webpack --config webpack/webpack.prod.js",
