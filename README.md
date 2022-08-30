@@ -161,7 +161,7 @@ $ npm run test
 $ npm run test:watch
 ```
 
-The command below is used to collect code coverage information from directories specified in the [jest.config.js](https://github.com/lszymanski7/boilerplate-js/blob/dev/config/jest.config.js) file. All output files will be available in the `./coverage` folder.
+The command below is used to collect code coverage information from directories specified in the [jest.config.js](https://github.com/lszymanski7/boilerplate-js/blob/main/config/jest/jest.config.js) file. All output files will be available in the `./coverage` folder.
 
 ```
 $ npm run test:coverage

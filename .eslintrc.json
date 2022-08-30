@@ -27,7 +27,7 @@
                 "jest": true
             },
             "extends": ["plugin:jest/recommended"],
-            "files": ["**/*.test.js"],
+            "files": ["**/*.spec.js", "**/*.test.js"],
             "plugins": ["jest"],
             "rules": {
                 "jest/max-nested-describe": [

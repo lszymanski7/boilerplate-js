@@ -10,12 +10,13 @@ module.exports = {
             statements: -10
         }
     },
+    rootDir: '../../',
     testEnvironment: 'jest-environment-jsdom',
     testMatch: ['**/__tests__/**/*.(spec|test).js'],
     testPathIgnorePatterns: ['/node_modules/'],
     transform: {
         '\\.js$': 'babel-jest',
-        '\\.(png|jpe?g|gif|svg|ico|webp|tiff|woff(2)?|eot|ttf|otf|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/src/tests/file-transformer.js'
+        '\\.(png|jpe?g|gif|svg|ico|webp|tiff|woff(2)?|eot|ttf|otf|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/config/jest/file-transformer.js'
     },
     verbose: true
 }

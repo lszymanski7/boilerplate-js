@@ -10,7 +10,7 @@ module.exports = merge(common, {
     stats: 'normal',
     output: {
         filename: 'static/js/[name].[contenthash:8].js',
-        chunkFilename: 'static/js/[id].[contenthash:8].chunk.js'
+        chunkFilename: 'static/js/[name].[contenthash:8].chunk.js'
     },
     module: {
         rules: [
