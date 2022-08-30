@@ -12,9 +12,11 @@
 }
 
 .home-logo {
-  padding: 0 0 map-get($spaces, 'lg') 0;
+  height: 256px;
+  width: 256px;
 }
 
 .home-title {
   color: map-get($colors, 'basic', 'white');
+  padding: map-get($spaces, 'lg') 0 0 0;
 }
