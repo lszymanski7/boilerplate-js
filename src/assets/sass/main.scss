@@ -9,12 +9,18 @@
 @import 
   './abstracts/functions',
   './abstracts/mixins',
+  './abstracts/placeholders',
   './abstracts/variables';
 
 @import 
+  './base/animations', 
   './base/base',
   './base/reset',
   './base/typography';
+
+@import 
+  './layout/footer',
+  './layout/header';
 
 @import 
   './pages/home';
