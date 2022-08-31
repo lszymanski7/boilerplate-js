@@ -12,7 +12,7 @@ const render = () => {
         </header>
         <div class="home-container">
             <img
-                class="home-logo"
+                class="home-logo bounce"
                 src="${logo}"
                 alt="JavaScript Logo"
             />

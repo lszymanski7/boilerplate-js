@@ -23,6 +23,8 @@
 # JavaScript Boilerplate
 Boilerplate for creating projects in the JavaScript programming language. It includes the basic configuration of tools such as Webpack, Babel, Jest, Express, ESLint and Prettier. Designed to speed up the process of building new projects. Don't waste your time configuring the tools commonly used in web development.
 
+🚀 **Live demo:** <a href="https://lszymanski7-boilerplate-js.netlify.app">https://lszymanski7-boilerplate-js.netlify.app</a>
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 1. [Features](#features)
