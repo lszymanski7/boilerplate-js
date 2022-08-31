@@ -6,17 +6,43 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   justify-content: center;
-  min-height: 100vh;
+  padding: map-get($spaces, 'xl') map-get($spaces, 'md') map-get($spaces, 'xxxl');
   text-align: center;
 }
 
 .home-logo {
-  height: 256px;
-  width: 256px;
+  height: 218px;
+  width: 218px;
 }
 
 .home-title {
   color: map-get($colors, 'basic', 'white');
+  font-size: map-get($font-sizes, 'xxl');
+  font-weight: normal;
   padding: map-get($spaces, 'lg') 0 0 0;
+}
+
+.home-badges {
+  padding: map-get($spaces, 'xl') 0 0 0;
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    padding: 0.2rem;
+  }
+}
+
+@media screen and (max-width: map-get($breakpoints, 'md')) {
+  .home-logo {
+    width: 128px;
+    height: 128px;
+  }
+
+  .home-title {
+    font-size: map-get($font-sizes, 'xl');
+  }
 }

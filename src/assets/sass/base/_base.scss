@@ -14,5 +14,8 @@ html {
 }
 
 body {
-  background: map-get($colors, 'javascript', 'dark-charcoal');
+  background: map-get($colors, 'javascript', 'gray-dark');
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
