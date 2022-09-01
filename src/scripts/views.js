@@ -49,7 +49,7 @@ const render = () => {
             </div>
         </div>
         <footer class="footer">
-            <p>Created with \u{1F49B} by Łukasz Szymański</p>
+            <p>Created with &#128155; by Łukasz Szymański</p>
         </footer>
     `
 }
