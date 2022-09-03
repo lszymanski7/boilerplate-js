@@ -1,5 +1,8 @@
 module.exports = {
-    collectCoverageFrom: ['<rootDir>/src/scripts/**/*.js'],
+    collectCoverageFrom: [
+        '<rootDir>/src/scripts/**/*.js',
+        '<rootDir>/src/utils/**/*.js'
+    ],
     coverageDirectory: '<rootDir>/coverage',
     coveragePathIgnorePatterns: [
         '/node_modules/', 
