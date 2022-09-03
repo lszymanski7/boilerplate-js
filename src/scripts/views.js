@@ -4,53 +4,53 @@ import waves from '../assets/images/shapes/waves.svg'
 
 const render = () => {
     document.getElementById('root').innerHTML = `
-        <div class="home">
+        <div class="flexbox-container">
             <header>
                 <img
+                    alt="JavaScript Waves"
                     src="${waves}"
-                    alt="Waves"
                 />
             </header>
             <div class="home-container">
                 <img
+                    alt="JavaScript Logo"
                     class="home-logo bounce"
                     src="${logo}"
-                    alt="JavaScript Logo"
                 />
                 <h1 class="home-title">JavaScript Boilerplate</h1>
                 <div class="home-badges">
                     <a href="https://github.com/lszymanski7/boilerplate-js">
                         <img
-                            src="${badge.github}"
                             alt="GitHub Badge"
+                            src="${badge.github}"
                         />
                     </a>
                     <img
-                        src="${badge.version}"
                         alt="Version Badge"
+                        src="${badge.version}"
                     />
                     <img
-                        src="${badge.size}"
                         alt="Size Badge"
+                        src="${badge.size}"
                     />
                     <a href="https://github.com/lszymanski7/boilerplate-js/blob/main/LICENSE.md">
                         <img
-                            src="${badge.license}"
                             alt="License Badge"
+                            src="${badge.license}"
                         />
                     </a>
                     <img
-                        src="${badge.forks}"
                         alt="Forks Badge"
+                        src="${badge.forks}"
                     />
                     <img
-                        src="${badge.stars}"
                         alt="Stars Badge"
+                        src="${badge.stars}"
                     />
                 </div>
             </div>
             <footer class="footer">
-                <p>Created with &#128155; by Łukasz Szymański</p>
+                <p>Created with &#x1F49B; by Łukasz Szymański</p>
             </footer>
         </div>
     `
