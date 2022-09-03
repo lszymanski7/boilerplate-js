@@ -1,12 +1,6 @@
-// ===========================================================================
+// ================================================================================================
 // Home page styles
-// ===========================================================================
-
-.home {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+// ================================================================================================
 
 .home-container {
   align-items: center;
@@ -41,6 +35,10 @@
 }
 
 @media screen and (max-width: map-get($breakpoints, 'md')) {
+  .home-container {
+    padding: map-get($spaces, 'lg') map-get($spaces, 'md') map-get($spaces, 'xl');
+  }
+
   .home-logo {
     width: 128px;
     height: 128px;
