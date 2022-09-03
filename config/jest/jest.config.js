@@ -1,6 +1,10 @@
 module.exports = {
-    collectCoverageFrom: ['<rootDir>/src/scripts/**'],
+    collectCoverageFrom: ['<rootDir>/src/scripts/**/*.js'],
     coverageDirectory: '<rootDir>/coverage',
+    coveragePathIgnorePatterns: [
+        '/node_modules/', 
+        '/__tests__/'
+    ],
     coverageReporters: ['html', 'text'],
     coverageThreshold: {
         global: {

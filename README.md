@@ -218,6 +218,14 @@ $ git push heroku main
 ## Contributing
 Any contributions are greatly appreciated. Use the [issue tracker](https://github.com/lszymanski7/boilerplate-js/issues) if you want to report bugs, request a new feature or improve documentation. Please check for existing issues before you report them yourself.
 
+You can contribute by following these steps:
+1. Fork this repository on GitHub.
+2. Clone the forked repository to your machine: `$ git clone https://github.com/username/boilerplate-js.git`
+3. Create a new branch: `$ git switch -c <branch-name>`
+4. Make necessary changes and commit them.
+5. Push changes to GitHub: `$ git push origin -u <branch-name>`
+6. Submit a new Pull Request on GitHub.
+
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 - For more info about 7-1 Sass Architecture, please refer to [Sass Guidelines](https://sass-guidelin.es/#architecture) by Kitty Giraudel.
