@@ -4,7 +4,7 @@ import waves from '../assets/images/shapes/waves.svg'
 
 const render = () => {
     document.getElementById('root').innerHTML = `
-        <div class="flexbox-container">
+        <div class="flexbox-fullscreen">
             <header>
                 <img
                     alt="JavaScript Waves"
