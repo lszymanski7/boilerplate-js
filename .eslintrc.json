@@ -11,7 +11,7 @@
         "prettier"
     ],
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaVersion": 2022,
         "sourceType": "module"
     },
     "plugins": ["import"],
@@ -33,7 +33,7 @@
                 "jest/max-nested-describe": [
                     "error",
                     {
-                        "max": 5
+                        "max": 3
                     }
                 ],
                 "jest/no-test-return-statement": "error",
