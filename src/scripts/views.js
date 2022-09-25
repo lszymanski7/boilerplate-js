@@ -14,11 +14,11 @@ const render = () => {
             <div class="home-container">
                 <img
                     alt="JavaScript Logo"
-                    class="home-logo bounce"
+                    class="home-container__logo bounce"
                     src="${logo}"
                 />
-                <h1 class="home-title">JavaScript Boilerplate</h1>
-                <div class="home-badges">
+                <h1 class="home-container__title">JavaScript Boilerplate</h1>
+                <div class="home-container__badges">
                     <a href="https://github.com/lszymanski7/boilerplate-js">
                         <img
                             alt="GitHub Badge"
