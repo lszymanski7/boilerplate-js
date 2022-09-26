@@ -4,14 +4,14 @@ import waves from '../assets/images/shapes/waves.svg'
 
 const render = () => {
     document.getElementById('root').innerHTML = `
-        <div class="flexbox-fullscreen">
+        <div class="flexbox-column fullscreen">
             <header>
                 <img
                     alt="JavaScript Waves"
                     src="${waves}"
                 />
             </header>
-            <div class="home-container">
+            <div class="flexbox-column home-container">
                 <img
                     alt="JavaScript Logo"
                     class="home-container__logo bounce"
