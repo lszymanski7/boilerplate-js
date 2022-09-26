@@ -11,7 +11,7 @@ const render = () => {
                     src="${waves}"
                 />
             </header>
-            <div class="home-container">
+            <div class="flexbox-column home-container">
                 <img
                     alt="JavaScript Logo"
                     class="home-container__logo bounce"
