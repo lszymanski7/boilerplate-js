@@ -18,7 +18,7 @@ const render = () => {
                     src="${logo}"
                 />
                 <h1 class="home-container__title">JavaScript Boilerplate</h1>
-                <div class="home-container__badges">
+                <div class="flexbox-row home-container__badges">
                     <a href="https://github.com/lszymanski7/boilerplate-js">
                         <img
                             alt="GitHub Badge"
