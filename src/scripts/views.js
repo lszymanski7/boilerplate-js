@@ -2,6 +2,7 @@ import { badge } from '../data/constants'
 import logo from '../assets/images/logos/javascript.svg'
 import waves from '../assets/images/shapes/waves.svg'
 
+// Function that renders the application
 const render = () => {
     document.getElementById('root').innerHTML = `
         <div class="flexbox-column fullscreen">
