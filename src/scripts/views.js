@@ -1,6 +1,4 @@
-import { badges } from '../data/constants'
-import logo from '../assets/images/logos/javascript.svg'
-import waves from '../assets/images/shapes/waves.svg'
+import { badges, logos, shapes } from '../data/constants'
 
 // Function that renders the application
 const render = () => {
@@ -9,14 +7,14 @@ const render = () => {
             <header class="header">
                 <img
                     alt="JavaScript Waves"
-                    src="${waves}"
+                    src="${shapes.waves}"
                 />
             </header>
             <div class="flexbox-column home-container">
                 <img
                     alt="JavaScript Logo"
                     class="home-container__logo bounce"
-                    src="${logo}"
+                    src="${logos.javascript.svg}"
                 />
                 <h1 class="home-container__title">JavaScript Boilerplate</h1>
                 <div class="flexbox-row home-container__badges">

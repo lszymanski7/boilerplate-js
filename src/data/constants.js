@@ -1,4 +1,4 @@
-// GitHub Badges
+// GitHub badges
 const badges = {
     github: 'https://img.shields.io/badge/GitHub-555555?style=for-the-badge&logo=github',
     version: 'https://img.shields.io/badge/1.0.0-blue?style=for-the-badge&label=Version&labelColor=555555',
@@ -8,11 +8,20 @@ const badges = {
     stars: 'https://img.shields.io/github/stars/lszymanski7/boilerplate-js?style=for-the-badge&color=green&label=Stars&labelColor=555555'
 }
 
-// JavaScript Logos
+// Logos images
 const logos = {
-    size_128x128: require('../assets/images/logos/javascript-128x128.png'),
-    size_256x256: require('../assets/images/logos/javascript-256x256.png'),
-    size_512x512: require('../assets/images/logos/javascript-512x512.png')
+    github: require('../assets/images/logos/github.svg'),
+    javascript: {
+        size_128x128: require('../assets/images/logos/javascript-128x128.png'),
+        size_256x256: require('../assets/images/logos/javascript-256x256.png'),
+        size_512x512: require('../assets/images/logos/javascript-512x512.png'),
+        svg: require('../assets/images/logos/javascript.svg')
+    }
 }
 
-export { badges, logos }
+// Shapes images
+const shapes = {
+    waves: require('../assets/images/shapes/waves.svg')
+}
+
+export { badges, logos, shapes }
