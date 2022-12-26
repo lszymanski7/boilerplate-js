@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import { badges, logos, shapes } from '../data/constants'
 
 // Function that renders the application
