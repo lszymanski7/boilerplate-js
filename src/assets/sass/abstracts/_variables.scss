@@ -4,17 +4,6 @@
 
 // Breakpoints
 
-// +----------+------------+-----------------+
-// | Size     | Dimensions | Device          |
-// +----------+------------+-----------------+
-// | X-Small  | < 576px    | portrait phone  |
-// | Small    | ≥ 576px    | landscape phone |
-// | Medium   | ≥ 768px    | tablet          |
-// | Large    | ≥ 992px    | desktop         |
-// | X-Large  | ≥ 1200px   | large desktop   |
-// | XX-Large | ≥ 1400px   | larger desktop  |
-// +----------+------------+-----------------+
-
 $breakpoints: (
   'sm': 576px,
   'md': 768px,
@@ -27,7 +16,10 @@ $breakpoints: (
 
 $colors: (
   'app': (
+    'gold': hsl(41, 100%, 52%),         // HEX: #FFB30B
     'gray': hsl(0, 0%, 33%),            // HEX: #545454
+    'orange': hsl(15, 88%, 60%),        // HEX: #F36A3E
+    'yellow': hsl(53, 88%, 62%),        // HEX: #F3DF49
   ),
   'basic': (
     'black': hsl(0, 0%, 0%),            // HEX: #000000
