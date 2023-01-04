@@ -63,12 +63,12 @@ Boilerplate for creating projects in the JavaScript programming language. It inc
 ![CSS](https://img.shields.io/badge/CSS-555555?style=flat&logo=css3&logoColor=1572B6)
 [![Sass](https://img.shields.io/badge/Sass%20|%20v1.57.1-555555?style=flat&logo=Sass&logoColor=CC6699)](https://sass-lang.com)
 [![Webpack](https://img.shields.io/badge/Webpack%20|%20v5.75.0-555555?style=flat&logo=webpack&logoColor=8DD6F9)](https://webpack.js.org)
-[![Babel](https://img.shields.io/badge/Babel%20|%20v7.20.7-555555?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
+[![Babel](https://img.shields.io/badge/Babel%20|%20v7.20.12-555555?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io)
 [![Jest](https://img.shields.io/badge/Jest%20|%20v29.3.1-555555?style=flat&logo=jest&logoColor=C21325)](https://jestjs.io)
 [![Node.js](https://img.shields.io/badge/Node.js%20|%20v18.9.0-555555?style=flat&logo=node.js&logoColor=339933)](https://nodejs.org/en)
 [![Npm](https://img.shields.io/badge/Npm%20|%20v8.19.1-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.2-555555?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com)
-[![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.30.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
+[![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.31.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
 [![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v2.8.1-555555?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
 All technologies and tools were used in the latest version at the time of creating this project.
