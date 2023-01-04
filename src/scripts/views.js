@@ -4,22 +4,26 @@ import { badges, logos, shapes } from '../data/constants'
 
 // Function that renders the application
 const render = () => {
+    // Application name
+    const name = 'JavaScript Boilerplate'
+
+    // Property used to change the HTML content of an element with id="root"
     document.getElementById('root').innerHTML = `
         <div class="flexbox-column fullscreen">
             <header class="header">
                 <img
-                    alt="JavaScript Waves"
+                    alt="Waves"
                     src="${shapes.waves}"
                 />
             </header>
-            <div class="flexbox-column home-container">
+            <div class="flexbox-column home">
                 <img
-                    alt="JavaScript Logo"
-                    class="home-container__logo bounce"
+                    alt="Application Logo"
+                    class="home__app-logo bounce"
                     src="${logos.javascript.svg}"
                 />
-                <h1 class="home-container__title">JavaScript Boilerplate</h1>
-                <div class="flexbox-row home-container__badges">
+                <h1 class="home__app-name">${name}</h1>
+                <div class="flexbox-row home__badges">
                     <a href="https://github.com/lszymanski7/boilerplate-js">
                         <img
                             alt="GitHub Badge"
