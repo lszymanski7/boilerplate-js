@@ -16,18 +16,18 @@ $breakpoints: (
 
 $colors: (
   'app': (
-    'gold': hsl(41, 100%, 52%),         // HEX: #FFB30B
     'gray': hsl(0, 0%, 33%),            // HEX: #545454
     'orange': hsl(15, 88%, 60%),        // HEX: #F36A3E
-    'yellow': hsl(53, 88%, 62%),        // HEX: #F3DF49
+    'yellow-100': hsl(53, 88%, 62%),    // HEX: #F3DF49
+    'yellow-200': hsl(41, 100%, 52%)    // HEX: #FFB30B
   ),
   'basic': (
     'black': hsl(0, 0%, 0%),            // HEX: #000000
     'white': hsl(0, 0%, 100%)           // HEX: #FFFFFF
   ),
   'javascript': (
-    'gray': hsl(60, 2.2%, 17.6%),       // HEX: #2E2E2C
-    'yellow': hsl(52.9, 87.6%, 62%)     // HEX: #F3DF49
+    'gray': hsl(60, 2%, 18%),           // HEX: #2E2E2C
+    'yellow': hsl(53, 88%, 62%)         // HEX: #F3DF49
   ),
   'shadow': (
     'black-25': hsla(0, 0%, 0%, 0.25),  // HEX: #000000
