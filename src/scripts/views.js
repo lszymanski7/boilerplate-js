@@ -2,12 +2,12 @@
 
 import { badges, logos, shapes } from '../data/constants'
 
-// Function that renders the application
+// Function ➞ renders the application
 const render = () => {
     // Application name
     const name = 'JavaScript Boilerplate'
 
-    // Property used to change the HTML content of an element with id="root"
+    // Property ➞ used to change the HTML content of an element
     document.getElementById('root').innerHTML = `
         <div class="flexbox-column fullscreen">
             <header class="header">
