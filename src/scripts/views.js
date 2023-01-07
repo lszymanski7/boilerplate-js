@@ -7,8 +7,8 @@ const render = () => {
     // Application name
     const name = 'JavaScript Boilerplate'
 
-    // Property ➞ used to change the HTML content of an element
-    document.getElementById('root').innerHTML = `
+    // Application HTML code
+    const html = `
         <div class="flexbox-column fullscreen">
             <header class="header">
                 <img
@@ -59,6 +59,9 @@ const render = () => {
             </footer>
         </div>
     `
+
+    // Element method ➞ inserts HTML code into a specified position
+    document.getElementById('root').insertAdjacentHTML('afterbegin', html)
 }
 
 export { render as default }
