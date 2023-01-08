@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 
-import { badges, logos, shapes } from '../data/constants'
+import { BADGES, LOGOS, SHAPES } from '../data/constants'
 
 // Function ➞ renders the application
 const render = () => {
@@ -13,44 +13,44 @@ const render = () => {
             <header class="header">
                 <img
                     alt="Waves"
-                    src="${shapes.waves}"
+                    src="${SHAPES.waves}"
                 />
             </header>
             <div class="flexbox-column home">
                 <img
                     alt="Application Logo"
                     class="home__app-logo bounce"
-                    src="${logos.javascript.svg}"
+                    src="${LOGOS.javascript.svg}"
                 />
                 <h1 class="home__app-name">${name}</h1>
                 <div class="flexbox-row home__badges">
                     <a href="https://github.com/lszymanski7/boilerplate-js">
                         <img
                             alt="GitHub Badge"
-                            src="${badges.github}"
+                            src="${BADGES.github}"
                         />
                     </a>
                     <img
                         alt="Version Badge"
-                        src="${badges.version}"
+                        src="${BADGES.version}"
                     />
                     <img
                         alt="Size Badge"
-                        src="${badges.size}"
+                        src="${BADGES.size}"
                     />
                     <a href="https://github.com/lszymanski7/boilerplate-js/blob/main/LICENSE.md">
                         <img
                             alt="License Badge"
-                            src="${badges.license}"
+                            src="${BADGES.license}"
                         />
                     </a>
                     <img
                         alt="Forks Badge"
-                        src="${badges.forks}"
+                        src="${BADGES.forks}"
                     />
                     <img
                         alt="Stars Badge"
-                        src="${badges.stars}"
+                        src="${BADGES.stars}"
                     />
                 </div>
             </div>
