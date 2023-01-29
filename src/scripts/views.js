@@ -9,21 +9,21 @@ const render = () => {
 
     // Application HTML code
     const html = `
-        <div class="flexbox-column fullscreen">
+        <div class="fullscreen">
             <header class="header">
                 <img
                     alt="Waves"
                     src="${SHAPES.waves}"
                 />
             </header>
-            <div class="flexbox-column home">
+            <div class="home">
                 <img
                     alt="Application Logo"
                     class="home__app-logo bounce"
                     src="${LOGOS.javascript.svg}"
                 />
                 <h1 class="home__app-name">${name}</h1>
-                <div class="flexbox-row home__badges">
+                <div class="home__badges">
                     <a href="https://github.com/lszymanski7/boilerplate-js">
                         <img
                             alt="GitHub Badge"
