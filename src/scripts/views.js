@@ -64,4 +64,4 @@ const render = () => {
     document.getElementById('root').insertAdjacentHTML('afterbegin', html)
 }
 
-export { render as default }
+export default render
