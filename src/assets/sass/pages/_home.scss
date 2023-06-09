@@ -44,6 +44,8 @@
   }
 }
 
+// Landscape phones
+
 @media (min-width: map-get($breakpoints, 'sm')) {
   .home__app-logo {
     height: 156px;
@@ -57,6 +59,8 @@
   }
 }
 
+// Tablets
+
 @media (min-width: map-get($breakpoints, 'md')) {
   .home__app-logo {
     height: 196px;
@@ -69,6 +73,8 @@
     @include drop-shadow(0.5rem, 0.5rem, 0.5rem, map-get($colors, 'shadow', 'black-50'));
   }
 }
+
+// Desktops
 
 @media (min-width: map-get($breakpoints, 'lg')) {
   .home__app-logo {
