@@ -69,7 +69,7 @@ A boilerplate designed to speed up the process of building new projects in the J
 [![Npm](https://img.shields.io/badge/Npm%20|%20v8.19.1-555555?style=flat&logo=npm&logoColor=CB3837)](https://npmjs.com)
 [![Express](https://img.shields.io/badge/Express%20%7C%20v4.18.2-555555?style=flat&logo=express&logoColor=FFFFFF)](https://expressjs.com)
 [![ESLint](https://img.shields.io/badge/ESLint%20%7C%20v8.47.0-555555?style=flat&logo=eslint&logoColor=4B32C3)](https://eslint.org)
-[![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v3.0.1-555555?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
+[![Prettier](https://img.shields.io/badge/Prettier%20%7C%20v3.0.2-555555?style=flat&logo=prettier&logoColor=F7B93E)](https://prettier.io)
 
 All technologies and tools were used in the latest version at the time of creating this project.
 
