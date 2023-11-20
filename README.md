@@ -80,7 +80,7 @@ All technologies and tools were used in the latest version at the time of creati
 ### Prerequisites
 > **Note** Download [Node.js](https://nodejs.org/en/download) installer.
 
-This project was created with the Node.js (v18.9.0) runtime environment and the NPM (v8.19.1) for package management. Use the Node.js installer to install both of them on your system.
+This project was created with the Node.js (v18.9.0) runtime environment and the NPM (v10.2.4) for package management. Use the Node.js installer to install both of them on your system.
 
 <!-- INSTALLATION -->
 ### Installation
