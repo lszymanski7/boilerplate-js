@@ -3,13 +3,13 @@
 1. [Webpack](#webpack)
 
 <!-- WEBPACK -->
-## Webpack | [![Webpack Version](https://img.shields.io/github/package-json/dependency-version/lszymanski7/boilerplate-js/dev/webpack)](https://www.npmjs.com/package/webpack)
-1. **Webpack Configuration Split:** The webpack configuration has been intelligently split into three files, catering to distinct development and production environments. This modular approach enhances maintainability and ensures efficient handling of environment-specific optimizations. The configurations seamlessly integrate with `webpack-merge` for easy management.
+## Webpack
+1. **Webpack Configuration Split:** The webpack configuration has been divided into three files, adapted to both development and production environments. This modular approach enhances maintainability and ensures efficient handling of environment-specific optimizations. It was created using `webpack-merge` for easier management.
 
 2. **Development Server Support:** The configuration includes robust support for the `webpack-dev-server`, offering a smooth development experience. Features like Hot Module Replacement (HMR) and source maps (`eval-source-map`) are leveraged to facilitate rapid iteration and effective debugging.
 
 3. **Comprehensive Plugin Integration:**
-    - **`html-webpack-plugin`:** Dynamically generates HTML files, including hashed script and link tags, fostering easy management of multiple entry points.
+    - **`html-webpack-plugin`:** Dynamically generates HTML files, including hashed script and link tags, making it easier to manage multiple entry points.
     - **`copy-webpack-plugin`:** Simplifies the copying of static assets like robots.txt to the build directory, ensuring seamless deployment.
     - **`mini-css-extract-plugin`:** Extracts CSS into separate files during production builds, enhancing performance and caching.
     - **`terser-webpack-plugin`:** Minifies and compresses JavaScript code, optimizing bundles for production.
@@ -21,4 +21,4 @@
 
 6. **Structured Output Paths:** The output paths and filenames are meticulously configured to maintain a well-organized build structure. This includes distinct directories for JavaScript, CSS, fonts, images, and media assets.
 
-7. **Optimized Production Build:** The production configuration is fine-tuned for optimal performance, employing TerserPlugin for JavaScript minification and CssMinimizerPlugin for CSS minification. This results in smaller bundle sizes and improved loading speeds for your production environment.
+7. **Optimized Production Build:** The production configuration is fine-tuned for optimal performance, employing TerserPlugin for JavaScript minification and CssMinimizerPlugin for CSS minification. This results in smaller bundle sizes and improved loading speeds in a production environment.
