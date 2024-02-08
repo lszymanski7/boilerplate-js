@@ -2,6 +2,8 @@
 
 # Features
 
+This comprehensive document is a description of features that are crucial to the project's development environment. Explore detailed setups for essential tools and technologies, including Webpack, Babel, Jest, Express, ESLint, Stylelint, and Prettier. Gain insights into how these components contribute to a streamlined and efficient development workflow, ensuring consistency, performance, and code quality throughout the project.
+
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
@@ -13,7 +15,9 @@
 
 ## Webpack
 
-1. **Webpack Configuration Split:** The webpack configuration has been divided into three files, adapted to both development and production environments. This modular approach enhances maintainability and ensures efficient handling of environment-specific optimizations. It was created using `webpack-merge` for easier management.
+[Webpack](https://webpack.js.org/) is a powerful open-source JavaScript module bundler widely used in modern web development. Its primary purpose is to manage and optimize the front-end codebase by bundling together various assets, such as JavaScript files, stylesheets, images, and more. Webpack treats all these assets as modules and builds a dependency graph, allowing it to efficiently package them for deployment. In this project, it has been configured to offer the following features:
+
+1. **Webpack Configuration Split:** The webpack configuration has been divided into three files ([webpack.common.js](https://github.com/lszymanski7/boilerplate-js/blob/main/config/webpack/webpack.common.js), [webpack.dev.js](https://github.com/lszymanski7/boilerplate-js/blob/main/config/webpack/webpack.dev.js) and [webpack.prod.js](https://github.com/lszymanski7/boilerplate-js/blob/main/config/webpack/webpack.prod.js)), adapted to both development and production environments. This modular approach enhances maintainability and ensures efficient handling of environment-specific optimizations. It was created using `webpack-merge` for easier management.
 
 2. **Development Server Support:** The configuration includes robust support for the `webpack-dev-server`, offering a smooth development experience. Features like Hot Module Replacement (HMR) and source maps (`eval-source-map`) are leveraged to facilitate rapid iteration and effective debugging.
 
@@ -37,7 +41,7 @@
 
 ## Babel
 
-This project utilizes [Babel](https://babeljs.io/) to transpile modern JavaScript code into a version compatible with a specified target environment. Configuration file includes the following preset and plugins:
+This project utilizes [Babel](https://babeljs.io/) to transpile modern JavaScript code into a version compatible with a specified target environment. Below, you'll find descriptions for all the presets and plugins contained in the configuration file - [.babelrc.json](https://github.com/lszymanski7/boilerplate-js/blob/main/.babelrc.json).
 
 `@babel/preset-env`
 
