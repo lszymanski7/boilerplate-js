@@ -15,7 +15,7 @@ This comprehensive document is a description of features that are crucial to the
 
 ## Webpack
 
-[Webpack](https://webpack.js.org/) is a powerful open-source JavaScript module bundler widely used in modern web development. Its primary purpose is to manage and optimize the front-end codebase by bundling together various assets, such as JavaScript files, stylesheets, images, and more. Webpack treats all these assets as modules and builds a dependency graph, allowing it to efficiently package them for deployment. In this project, it has been configured to offer the following features:
+[Webpack](https://webpack.js.org/) is a powerful open-source JavaScript module bundler widely used in modern web development. Its primary purpose is to manage and optimize the front-end codebase by bundling together various assets, such as JavaScript files, stylesheets, images, and more. Webpack treats all these assets as modules and builds a dependency graph, allowing it to efficiently package them for deployment. In this project, it has been configured to provide the features described below.
 
 1. **Webpack Configuration Split:** The webpack configuration has been divided into three files ([webpack.common.js](https://github.com/lszymanski7/boilerplate-js/blob/main/config/webpack/webpack.common.js), [webpack.dev.js](https://github.com/lszymanski7/boilerplate-js/blob/main/config/webpack/webpack.dev.js) and [webpack.prod.js](https://github.com/lszymanski7/boilerplate-js/blob/main/config/webpack/webpack.prod.js)), adapted to both development and production environments. This modular approach enhances maintainability and ensures efficient handling of environment-specific optimizations. It was created using `webpack-merge` for easier management.
 
@@ -41,7 +41,7 @@ This comprehensive document is a description of features that are crucial to the
 
 ## Babel
 
-This project utilizes [Babel](https://babeljs.io/) to transpile modern JavaScript code into a version compatible with a specified target environment. Below, you'll find descriptions for all the presets and plugins contained in the configuration file - [.babelrc.json](https://github.com/lszymanski7/boilerplate-js/blob/main/.babelrc.json).
+[Babel](https://babeljs.io/) is a JavaScript compiler that translates modern ECMAScript code into a version compatible with various browsers. It enables developers to use the latest language features, ensuring broad cross-browser support and facilitating the adoption of cutting-edge JavaScript capabilities. Below, you'll find descriptions of all the presets and plugins contained in the configuration file ([.babelrc.json](https://github.com/lszymanski7/boilerplate-js/blob/main/.babelrc.json)).
 
 `@babel/preset-env`
 
