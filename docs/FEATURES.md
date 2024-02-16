@@ -10,6 +10,8 @@ This comprehensive document is a description of features that are crucial to the
 
 1. [Webpack](#webpack)
 2. [Babel](#babel)
+3. [Jest](#jest)
+4. [ESLint](#eslint)
 
 <!-- WEBPACK -->
 
@@ -57,3 +59,11 @@ This comprehensive document is a description of features that are crucial to the
 
 - Transforms ECMAScript object rest/spread syntax.
 - Enables the use of the spread operator (`...`) for objects, providing a convenient way to manipulate and merge object properties.
+
+<!-- JEST -->
+
+## Jest
+
+<!-- ESLINT -->
+
+## ESLint
