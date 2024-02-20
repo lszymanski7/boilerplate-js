@@ -63,7 +63,7 @@ In progress...
 
 ## Technologies
 
-The project utilizes technologies and tools that are crucial for web development. All dependencies listed in the [package.json](https://github.com/lszymanski7/boilerplate-js/blob/main/package.json) file are regularly monitored and updated with Dependabot. This practice ensures not only the security of the project but also enhances its stability, while maintaining compliance with the latest technology standards.
+The technologies and tools used in this project are crucial for web development. All dependencies listed in the [package.json](https://github.com/lszymanski7/boilerplate-js/blob/main/package.json) file are regularly monitored and updated by Dependabot. This practice ensures not only the security of the project but also enhances its stability, while maintaining compliance with the latest technology standards.
 
 <div align="center">
 
