@@ -16,7 +16,7 @@
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/lszymanski7/boilerplate-js/main?label=Last%20Commit&labelColor=555555)](https://github.com/lszymanski7/boilerplate-js/commits/main)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lszymanski7/boilerplate-js?label=Pull%20Requests&labelColor=555555)](https://github.com/lszymanski7/boilerplate-js/pulls)
 [![GitHub Issues](https://img.shields.io/github/issues/lszymanski7/boilerplate-js?label=Issues&labelColor=555555)](https://github.com/lszymanski7/boilerplate-js/issues)
-[![CI/CD Status](https://img.shields.io/github/actions/workflow/status/lszymanski7/boilerplate-js/ci-cd.yml?label=CI%2FCD&labelColor=555555&logo=github)](https://github.com/lszymanski7/boilerplate-js/actions/workflows/ci-cd.yml)
+[![CI/CD Status](https://img.shields.io/github/actions/workflow/status/lszymanski7/boilerplate-js/ci-cd.yml?label=CI%2FCD&labelColor=555555&logo=github&logoColor=FFFFFF)](https://github.com/lszymanski7/boilerplate-js/actions/workflows/ci-cd.yml)
 [![Codecov](https://img.shields.io/codecov/c/github/lszymanski7/boilerplate-js?label=Codecov&labelColor=555555&logo=codecov)](https://app.codecov.io/gh/lszymanski7/boilerplate-js)
 
 </div>
@@ -266,14 +266,13 @@ You can contribute by following these steps:
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
-
-- For more info about 7-1 Sass Architecture, please refer to [Sass Guidelines](https://sass-guidelin.es/#architecture) by Kitty Giraudel.
+Special thanks to Kitty Giraudel for the insights on 7-1 Sass Architecture. For more details, refer to [Sass Guidelines](https://sass-guidelin.es/#architecture). These insights greatly influenced the structure of this project's stylesheets.
 
 <!-- LICENSE -->
 
 ## License
 
-This project is licensed under the terms of the [MIT License](https://github.com/lszymanski7/boilerplate-js/blob/main/LICENSE.md).
+This project is open-source and licensed under the terms of the [MIT License](https://github.com/lszymanski7/boilerplate-js/blob/main/LICENSE.md). Feel free to explore, contribute, and use the code in accordance with the MIT License. If you have any questions or feedback, please don't hesitate to reach out.
 
 <br/>
 
@@ -282,9 +281,9 @@ This project is licensed under the terms of the [MIT License](https://github.com
 ##
 
 <div align="center">
-  <p>If you have any questions or suggestions, please send me an <a href="mailto:lszymanski.info@gmail.com?subject=GitHub - Your subject here...">e-mail</a>. <br/> You can also find me on the following websites:</p>
+  <p>If you have any questions or suggestions, please send me an <a href="mailto:lszymanski.feedback@gmail.com?subject=GitHub - Your subject here...">e-mail</a>. <br/> Additionally, you can find me on the following websites:</p>
   
   [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-F58025?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/18706083)
-  [![GitLab](https://img.shields.io/badge/GitLab-555555?style=flat&logo=gitlab)](https://gitlab.com/lszymanski7)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/lszymanski7)
+  [![GitLab](https://img.shields.io/badge/GitLab-gray?style=flat&logo=gitlab)](https://gitlab.com/lszymanski7)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=FFFFFF)](https://linkedin.com/in/lszymanski7)
 </div>
