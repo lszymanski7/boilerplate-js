@@ -2,8 +2,9 @@
   "arrowParens": "always",
   "bracketSameLine": false,
   "bracketSpacing": true,
-  "endOfLine": "crlf",
-  "printWidth": 100,
+  "endOfLine": "lf",
+  "jsxSingleQuote": false,
+  "printWidth": 120,
   "semi": false,
   "singleAttributePerLine": true,
   "singleQuote": true,
@@ -12,18 +13,13 @@
   "useTabs": false,
   "overrides": [
     {
-      "files": [
-        "**/*.html"
-      ],
+      "files": ["**/*.html"],
       "options": {
         "singleAttributePerLine": false
       }
     },
     {
-      "files": [
-        "**/*.css", 
-        "**/*.scss"
-      ],
+      "files": ["**/*.css", "**/*.scss"],
       "options": {
         "semi": true
       }
